@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VectorGraphicEditor.Circle">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="VectorGraphicEditor.Figure" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="1.875" />
+        <Point X="13" Y="1.875" />
+        <Point X="13" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAIAAAAAAAAIAAAAAGAACAEEAAAICAAAAAAA=</HashCode>
+      <FileName>Figures\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Color">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAABA=</HashCode>
+      <FileName>Color.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Figure">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAIAAAAAEAAAAEGAAAICAAAAAAA=</HashCode>
+      <FileName>Figures\Figure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Input">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAIAAAAAAQAAAAAAAAAAAAAAiAAAAAAAAAAAA=</HashCode>
+      <FileName>Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.MenuActions">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIAAAAAAAEIACAAAECBAAAECAAAAAAAAIAA=</HashCode>
+      <FileName>MenuActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Program">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Point">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.Quad">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="VectorGraphicEditor.Figure" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="1.875" />
+        <Point X="15" Y="1.875" />
+        <Point X="15" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAACAAIAAAAAAAAIAAAAAEAAAAEEAIAKCAAAAACA=</HashCode>
+      <FileName>Figures\Quad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorGraphicEditor.VectorDoc">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAACAAAIAAAACAAEIAAAAAEAAAAAECAAAAAAAAAAA=</HashCode>
+      <FileName>VectorDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
